@@ -6,4 +6,7 @@ public class StudentController {
         this.nombre = nombre;
         this.apellido = apellido;
         this.promedio = promedio; }
+
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
 }
